@@ -1,6 +1,6 @@
 # Slippery-slope eval
 
-A learning project: an eval for a prompt-based classifier that detects slippery-slope fallacies.
+An eval for a prompt-based classifier that detects slippery-slope fallacies.
 
 ```
 pip install anthropic
