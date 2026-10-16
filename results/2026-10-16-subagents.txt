@@ -1,0 +1,53 @@
+==================== eval session starts ====================
+prompt:  prompt.txt
+model:   Claude Code subagents (1 per case, labels hidden)
+runs:    1
+
+data/dev.jsonl
+  c01 causal     easy    fallacy      PASSED
+  c02 causal     easy    fallacy      PASSED
+  c03 causal     easy    fallacy      PASSED
+  c04 precedent  easy    fallacy      PASSED
+  c05 precedent  medium  fallacy      PASSED
+  c06 sorites    easy    fallacy      PASSED
+  c07 sorites    medium  fallacy      PASSED
+  c08 full       medium  fallacy      PASSED
+  c09 causal     easy    not_fallacy  PASSED
+  c10 causal     easy    not_fallacy  PASSED
+  c11 none       easy    not_fallacy  PASSED
+  c12 precedent  medium  not_fallacy  PASSED
+  c13 sorites    medium  not_fallacy  PASSED
+  c14 causal     hard    not_fallacy  PASSED
+  c15 causal     hard    fallacy      FAILED
+  c16 causal     hard    fallacy      PASSED
+  c17 none       hard    not_fallacy  PASSED
+  c18 causal     hard    fallacy      PASSED
+  c19 sorites    hard    not_fallacy  PASSED
+  c20 precedent  hard    not_fallacy  PASSED
+
+data/test.jsonl
+  c21 causal     easy    fallacy      PASSED
+  c22 precedent  easy    fallacy      PASSED
+  c23 causal     easy    fallacy      PASSED
+  c24 sorites    easy    fallacy      PASSED
+  c25 precedent  easy    fallacy      PASSED
+  c26 causal     easy    fallacy      PASSED
+  c27 precedent  easy    not_fallacy  PASSED
+  c28 causal     easy    not_fallacy  PASSED
+  c29 sorites    easy    fallacy      PASSED
+  c30 causal     easy    not_fallacy  PASSED
+
+========================= FAILURES ==========================
+___________________________ c15 _____________________________
+expected: fallacy
+got:      not_fallacy
+reason:   The argument describes an existing, hedged pattern rather
+          than predicting a slide: opioids causing dependence and
+          dependent patients turning to illicit supply are common
+          knowledge, even though "documented" alone would not count
+          as support.
+
+========================= SUMMARY ===========================
+dev   19/20 (95%)   easy 8/8   medium 5/5   hard 6/7
+test  10/10 (100%)  easy 10/10
+total 29/30 passed, 1 failed

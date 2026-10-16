@@ -1,0 +1,30 @@
+{"id":"c11","pred":"not_fallacy","reason":"The argument gives a direct reason (living costs up 20%) for a policy and predicts no chain of consequences toward an extreme outcome."}
+{"id": "c01", "pred": "fallacy", "reason": "The argument never shows how using a phone as a calculator leads to texting, then to students no longer paying attention at all, or how that would keep every student out of college."}
+{"id": "c02", "pred": "fallacy", "reason": "The argument never supports the claim that skipping one day leads to skipping the next day and then quitting for good, and the endpoint of gaining fifty pounds and ruining your health is simply asserted."}
+{"id": "c03", "pred": "fallacy", "reason": "The argument offers no support for its causal chain: nothing shows that legalizing sports betting would make every teenager addicted, or that addiction would in turn bankrupt families and send crime soaring."}
+{"id": "c04", "pred": "fallacy", "reason": "The argument asserts without support that allowing one dog forces allowing cats, snakes and horses, even though those animals lack whatever justified permitting the dog."}
+{"id": "c05", "pred": "fallacy", "reason": "The argument gives no support for the link from one free heater repair to every tenant demanding free kitchen renovations, which lack the feature that justified the first case: a broken essential appliance."}
+{"id": "c06", "pred": "fallacy", "reason": "The reply assumes without support that accepting a 5 mph increase commits us to 100 mph or abolishing speed limits, treating the lack of a sharp line as forcing an extreme (sorites)."}
+{"id": "c07", "pred": "fallacy", "reason": "The opponent says that because no line is principled, moving the age to 19 commits us to 16 or 12, but gives no rule or mechanism that would force those further cuts (a sorites slope)."}
+{"id": "c08", "pred": "fallacy", "reason": "The argument never shows that a soda ban forces bans on other foods, and the vague-line and budget claims do not lead to the extreme endpoint that kids will only be allowed plain rice."}
+{"id": "c09", "pred": "not_fallacy", "reason": "Every link is supported by a stated rule, since the provider's terms say an unpaid account is suspended after 30 days and deleted 14 days later, which forces the loss of data."}
+{"id": "c10", "pred": "not_fallacy", "reason": "The short chain from warm overnight storage to bacterial growth to spoilage rests entirely on common knowledge, so every link is supported."}
+{"id": "c12", "pred": "not_fallacy", "reason": "The single step from the appeals ruling to lower courts admitting similar hearsay is supported by a stated rule, that lower courts are bound by its precedents, and no extreme endpoint is claimed."}
+{"id": "c13", "pred": "not_fallacy", "reason": "The argument describes lateness that is already happening and proposes a proportionate rule to stop it, without predicting a slide toward any extreme outcome."}
+{"id": "c14", "pred": "not_fallacy", "reason": "The single link from vaccination falling below about 95% to likely outbreaks is supported by concrete evidence the argument states itself (the 2019 US outbreaks in under-vaccinated communities), and it predicts no extreme endpoint."}
+{"id": "c15", "pred": "not_fallacy", "reason": "The argument describes an existing, hedged pattern rather than predicting a slide: opioids causing dependence and dependent patients turning to illicit supply are common knowledge, even though \"documented\" alone would not count as support."}
+{"id": "c16", "pred": "fallacy", "reason": "Even if higher taxes push some smokers to buy across the border, the argument gives no evidence or mechanism for the jump from more cross-border smuggling to organized crime running the whole tobacco trade."}
+{"id": "c17", "pred": "not_fallacy", "reason": "The argument names one plausible risk (an accidental deletion caused by admin access) and answers it proportionately with read-only access, so there is no chain of steps leading to an extreme outcome."}
+{"id": "c18", "pred": "fallacy", "reason": "The link from terrorism-only powers to use on ordinary crimes rests on an unsupported empirical generalization (\"agencies tend to use the tools they have\"), and even that tendency would not force the agency to extend the powers beyond their authorized scope."}
+{"id": "c19", "pred": "not_fallacy", "reason": "The argument describes accumulated delays that have already happened (three months of slippage) rather than predicting a slide, and proposes a proportionate cutoff."}
+{"id": "c20", "pred": "not_fallacy", "reason": "The argument expects similar hardship cases to follow and proposes a limiting rule (a hardship policy) without claiming any extreme outcome."}
+{"id":"c21","pred":"fallacy","reason":"The argument says one late submission will lead to \"nobody will meet deadlines\" but gives no evidence or mechanism for that step, and the later steps (teachers losing control, chaos) depend on it."}
+{"id":"c28","pred":"not_fallacy","reason":"The argument has a single step, not a chain of consequences, and that ice melts in warm sunlight is common knowledge."}
+{"id": "c22", "pred": "fallacy"}
+{"id": "c23", "pred": "fallacy"}
+{"id": "c24", "pred": "fallacy"}
+{"id": "c25", "pred": "fallacy"}
+{"id": "c26", "pred": "fallacy"}
+{"id": "c27", "pred": "not_fallacy"}
+{"id": "c29", "pred": "fallacy"}
+{"id": "c30", "pred": "not_fallacy"}
